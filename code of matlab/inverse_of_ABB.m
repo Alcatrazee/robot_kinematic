@@ -1,7 +1,7 @@
 function theta_vector = inverse_of_ABB(g_st_theta)
 %% params of inverse kinematic 
 % tolerance of error
-E=0.0000002;
+E=1e-5;
 limit_of_iterate=20;
 %% parameters of ABB elbow manipulator
 % initial posture
